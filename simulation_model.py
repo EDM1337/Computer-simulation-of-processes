@@ -4,12 +4,11 @@ import matplotlib.pyplot as plt
 
 class Pizzeria:
     def __init__(self):
-        self.num_ovens = 10
-        self.max_queue_length = 10
-        self.oven_cost_per_hour = 2
+        self.num_ovens = 10 # Кількість печей
+        self.max_queue_length = 10 # Максимальна довжина черги
+        self.oven_cost_per_hour = 2 
         self.standard_pizza_time = 10
-        self.custom_pizza_time = 15
-        
+        self.custom_pizza_time = 15  
         self.queue = []
         self.ovens_list = []
 
